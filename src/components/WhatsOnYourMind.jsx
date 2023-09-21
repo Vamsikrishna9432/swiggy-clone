@@ -8,7 +8,7 @@ const WhatsOnYourMind = ({intrestdata}) => {
   return (
     <div className="relative w-10/12 m-auto  my-1 flex-shrink-0">
         <h1 className="font-bold text-[28px] text-blacks my-3 mx-3">
-           What's on your mind? Choose one
+           What's on your mind?
         </h1>
         <div className="flex overflow-x-scroll scrollbar-hide scroll-smooth" ref={ref}>
           {intrestdata?.map((each) => (
